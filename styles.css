@@ -1,4 +1,7 @@
 html{
     background-color: azure;
-    
+}
+
+nav{
+    grid-template-columns: auto auto auto;
 }
