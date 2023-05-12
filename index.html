@@ -1,19 +1,95 @@
+<!DOCTYPE html>
 <html>
-    <head>
-
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="">columnitas</a>
-                <br>
-                <a href="">amor</a>
-                <br>
-                <a href="">cuando acuestes la cabeza / coraje</a>
-            </nav>
-        </header>
-        <main>
-
-        </main>
-    </body>
+<head>
+  <title>Mi sitio web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    #menu {
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+    
+    #menu ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #menu li {
+      margin-bottom: 10px;
+    }
+    
+    #menu a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    #content {
+      margin-left: 220px;
+      padding: 20px;
+    }
+    
+    .gallery {
+      display: inline-block;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .gallery img {
+      width: 200px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="menu">
+    <ul>
+      <li><a href="#pagina1">Página 1</a></li>
+      <li><a href="#pagina2">Página 2</a></li>
+      <li><a href="#pagina3">Página 3</a></li>
+    </ul>
+  </div>
+  
+  <div id="content">
+    <div id="pagina1">
+      <h2>Página 1</h2>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-1.jpg" alt="Imagen 1">
+        <p>Descripción de la imagen 1</p>
+      </div>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-2.jpg" alt="Imagen 2">
+        <p>Descripción de la imagen 2</p>
+      </div>
+    </div>
+    
+    <div id="pagina2">
+      <h2>Página 2</h2>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-3.jpg" alt="Imagen 3">
+        <p>Descripción de la imagen 3</p>
+      </div>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-4.jpg" alt="Imagen 4">
+        <p>Descripción de la imagen 4</p>
+      </div>
+    </div>
+    
+    <div id="pagina3">
+      <h2>Página 3</h2>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-5.jpg" alt="Imagen 5">
+        <p>Descripción de la imagen 5</p>
+      </div>
+      <div class="gallery">
+        <img src="ruta-a-la-imagen-6.jpg" alt="Imagen 6">
+        <p>Descripción de la imagen 6</p>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
