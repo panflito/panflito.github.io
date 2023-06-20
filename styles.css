@@ -19,9 +19,13 @@ a:hover {
   width: 250px;
 }
 
-.p1{
+p{
+  width: 343px;
+}
+
+.agua{
+  display:inline-block;
   text-indent: 34px;
-  width: 420px;
 }
 
 .cursiva{
