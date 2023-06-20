@@ -23,9 +23,13 @@ p{
   width: 343px;
 }
 
-.agua{
+.columnitas{
   display:inline-block;
   text-indent: 34px;
+}
+
+.columnitaspadding{
+  padding: 15px;
 }
 
 .cursiva{
