@@ -61,7 +61,23 @@ p{
   width: 343px;
 }
 
+.cuandocentrado{
+  width: 314px;
+}
+
 h2{
   font-size: 22px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
+
+.textocentrado{
+  text-align: center;
+}
+
+#sellooi{
+  width: 92px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
