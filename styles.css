@@ -24,19 +24,19 @@ a:hover {
 }
 
 p{
-  width: 343px;
+  width: 311px;
 }
 
 .cursiva{
   font-style: italic;
 }
 
+
+/*01__columnitas*/
+
 .volver{
   width: 51px;
 }
-
-
-/*01__columnitas*/
 
 .columnitas{
   display:inline-block;
@@ -56,4 +56,5 @@ p{
 
 h2{
   font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
 }
