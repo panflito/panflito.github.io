@@ -27,6 +27,17 @@ p{
   width: 343px;
 }
 
+.cursiva{
+  font-style: italic;
+}
+
+.volver{
+  width: 51px;
+}
+
+
+/*01__columnitas*/
+
 .columnitas{
   display:inline-block;
   text-indent: 34px;
@@ -36,10 +47,13 @@ p{
   padding: 15px;
 }
 
-.cursiva{
-  font-style: italic;
+
+/*03__cuando*/
+
+.tapa{
+  width: 343px;
 }
 
-.volver{
-  width: 51px;
+h2{
+  font-size: 22px;
 }
