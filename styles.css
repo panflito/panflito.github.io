@@ -1,3 +1,5 @@
+/*index*/
+
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -106,4 +108,15 @@ h2{
 .doblesangria{
   display: inline-block;
   text-indent: 102px;
+}
+
+
+/*04__okytomo*/
+
+.okylogo{
+  width: 92px;
+}
+
+.textoderecha{
+  text-align: right;
 }
