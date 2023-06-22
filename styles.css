@@ -63,6 +63,7 @@ p{
 
 .cuandocentrado{
   width: 314px;
+  padding: 15px;
 }
 
 h2{
@@ -75,9 +76,26 @@ h2{
   text-align: center;
 }
 
-#sellooi{
+.sellooi{
   width: 92px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.selloflor{
+  width: 51px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sangria{
+  display:inline-block;
+  text-indent: 51px;
+}
+
+.doblesangria{
+  display: inline-block;
+  text-indent: 102px;
 }
