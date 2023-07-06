@@ -127,7 +127,7 @@ h2{
 }
 
 body{
-  background-color: black; /* Set a black background color */
+  background-color: black;
   filter: invert(100%);
 }
 
