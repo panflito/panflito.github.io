@@ -126,3 +126,7 @@ h2{
   width: 200px;
 }
 
+body{
+  filter: invert(82%);
+}
+
