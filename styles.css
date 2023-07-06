@@ -25,16 +25,18 @@ a:hover {
   width: 250px;
 }
 
-p{
-  width: 314px;
-}
-
 .padding{
   padding: 15px;
+  width: 314px;
 }
 
 .textoderecha{
   text-align: right;
+}
+
+.sangria{
+  display:inline-block;
+  text-indent: 51px;
 }
 
 .cursiva{
@@ -44,11 +46,12 @@ p{
 
 /*01__columnitas*/
 
-.volver{
+.volver__01{
   width: 51px;
 }
 
 .columnitas{
+  /*esto es la sangria*/
   display:inline-block;
   text-indent: 51px;
 }
@@ -63,6 +66,10 @@ p{
 
 /*02__amor*/
 
+.volver__02{
+  width: 51px;
+}
+
 h3{
   font-size: 15px;
   font-family: 'EB Garamond', serif;
@@ -75,10 +82,6 @@ h3{
   width: 343px;
 }
 
-.cuandocentrado{
-  width: 314px;
-  padding: 15px;
-}
 
 h2{
   font-size: 22px;
@@ -104,11 +107,6 @@ h2{
   margin-right: auto;
 }
 
-.sangria{
-  display:inline-block;
-  text-indent: 51px;
-}
-
 .doblesangria{
   display: inline-block;
   text-indent: 102px;
@@ -124,6 +122,6 @@ h2{
 
 /*05__retorica*/
 
-.volver05{
-  width: 151px;
+.volver__05{
+  width: 200px;
 }
