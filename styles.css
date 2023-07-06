@@ -29,6 +29,14 @@ p{
   width: 314px;
 }
 
+.padding{
+  padding: 15px;
+}
+
+.textoderecha{
+  text-align: right;
+}
+
 .cursiva{
   font-style: italic;
 }
@@ -43,10 +51,6 @@ p{
 .columnitas{
   display:inline-block;
   text-indent: 51px;
-}
-
-.columnitaspadding{
-  padding: 15px;
 }
 
 .ojo{
@@ -117,6 +121,9 @@ h2{
   width: 92px;
 }
 
-.textoderecha{
-  text-align: right;
+
+/*05__retorica*/
+
+.volver05{
+  width: 151px;
 }
