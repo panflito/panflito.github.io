@@ -63,6 +63,10 @@ a:hover {
   margin-right: auto;
 }
 
+.mariano{
+  width: 200px;
+  border: 2px solid red;
+}
 
 /*02__amor*/
 
@@ -122,6 +126,8 @@ h2{
 
 /*05__retorica*/
 
+
+
 .volver__05{
   width: 200px;
 }
@@ -130,3 +136,9 @@ h2{
   padding: 15px;
   width: 515px;
 }
+
+
+
+
+
+
