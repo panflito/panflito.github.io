@@ -1,7 +1,12 @@
 /*index*/
 
 h1{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+h3{
+  font-size: 15px;
+  font-family: 'EB Garamond', serif;
 }
 
 .index{
@@ -19,10 +24,6 @@ a{
 
 a:hover {
   background-color: yellow;
-}
-
-.mesita{
-  width: 250px;
 }
 
 .padding{
@@ -44,40 +45,21 @@ a:hover {
 }
 
 
-/*01__columnitas*/
+/*01__diario*/
 
 .volver__01{
   width: 51px;
 }
 
-.columnitas{
-  /*esto es la sangria*/
-  display:inline-block;
-  text-indent: 51px;
-}
-
-.ojo{
+.paloma{
   width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.mariano{
-  width: 200px;
   border: 2px solid red;
 }
 
-/*02__amor*/
 
-.volver__02{
-  width: 51px;
-}
-
-h3{
-  font-size: 15px;
-  font-family: 'EB Garamond', serif;
-}
 
 
 /*03__cuando*/
@@ -139,6 +121,12 @@ h2{
 
 
 
+/*volver*/
 
+.mesita{
+  width: 250px;
+}
 
-
+.fueguito{
+  width: 51px;
+}
