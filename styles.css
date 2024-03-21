@@ -2,11 +2,21 @@
 
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  padding-top: 16px;
 }
 
 h3{
   font-size: 15px;
   font-family: 'EB Garamond', serif;
+}
+
+.encabezado{
+  display: grid;
+  grid-template-columns: 59px auto;
+}
+
+.sello{
+  width: 96px;
 }
 
 .index{
