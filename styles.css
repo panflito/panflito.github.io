@@ -152,11 +152,8 @@ h2{
   width: 314px;
 }
 
-.video{
-  width: 300px;
-}
-
 video{
   width: 300px;
+  object-fit: cover;
 }
 
