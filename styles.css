@@ -36,6 +36,11 @@ a:hover {
   background-color: yellow;
 }
 
+ul{
+  padding-left: 40px;
+  width: 300px;
+}
+
 .padding{
   padding: 15px;
   width: 314px;
@@ -68,8 +73,6 @@ a:hover {
   margin-right: auto;
   border: 2px solid red;
 }
-
-
 
 
 /*cuando*/
@@ -118,8 +121,6 @@ h2{
 
 /*05__retorica*/
 
-
-
 .volver__05{
   width: 200px;
 }
@@ -156,4 +157,5 @@ video{
   width: 300px;
   object-fit: cover;
 }
+
 
