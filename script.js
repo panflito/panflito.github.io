@@ -34,6 +34,47 @@ function abrirArchivoAleatorio() {
   window.location.href = "/textos/" + randomFile;
 }
 
-function activarModoOscuro() {
-  document.body.classList.toggle("modo-oscuro");
+function sendComment() {
+  const comment = document.getElementById("commentInput").value;
+  if (comment) {
+    sendToTelegram(comment);
+  } else {
+    alert("escribi ALGO");
+  }
+}
+
+function sendToTelegram(comment) {
+  const chatId = 671535946;
+  const token = "7547166968:AAECqRBFZ3YMCy1_iLk0U7hcCYtEF_QIJBI";
+  const sourceUrl = window.location.href; // Captura la URL actual
+  const message = `Nuevo comentario:\n${comment}\n\nDesde: ${sourceUrl}`;
+  const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      if (data.ok) {
+        alert("¡Éxito!");
+      } else {
+        alert("Algo salió mal");
+      }
+    })
+    .catch(err => alert("Error al enviar comentario: " + err));
+}
+
+function addToHistory(columnName) {
+  let history = JSON.parse(localStorage.getItem('columnHistory')) || [];
+  if (!history.includes(columnName)) {
+    history.push(columnName);
+    localStorage.setItem('columnHistory', JSON.stringify(history));
+  }
+}
+function highlightHistory() {
+  let history = JSON.parse(localStorage.getItem('columnHistory')) || [];
+  history.forEach(column => {
+    const columnElement = document.querySelector(`[data-column="${column}"]`);
+    if (columnElement) {
+      columnElement.classList.add('highlighted'); // Asegúrate de tener un estilo para 'highlighted'
+    }
+  });
 }
